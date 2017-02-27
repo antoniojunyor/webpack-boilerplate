@@ -1,0 +1,16 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic webpack config to init projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "project"
+  ],
+  "author": "Antonio Junior",
+  "license": "ISC"
+}
