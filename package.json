@@ -4,7 +4,8 @@
   "description": "Basic webpack config to init projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack-dev": "webpack -d --watch",
+    "webpack-prod": "webpack -p"
   },
   "keywords": [
     "webpack",
