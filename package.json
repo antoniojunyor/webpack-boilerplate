@@ -12,5 +12,9 @@
     "project"
   ],
   "author": "Antonio Junior",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1"
+  }
 }
