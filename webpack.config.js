@@ -42,6 +42,10 @@ module.exports = {
     }]
   },
   devtool: 'inline-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'build'),
+    compress: true
+  },
   plugins: [
     html_webpack_plugin,
     extract_sass
