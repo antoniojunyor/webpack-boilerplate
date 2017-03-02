@@ -41,7 +41,7 @@ module.exports = {
       })
     }]
   },
-  devtool: 'source-map',
+  devtool: 'inline-source-map',
   plugins: [
     html_webpack_plugin,
     extract_sass
