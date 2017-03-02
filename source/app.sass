@@ -1,5 +1,28 @@
-body
-  background-color: orange
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
 
-  p
-    color: red
+  &::before,
+  &::after
+    box-sizing: inherit
+
+body
+  font-family: sans-serif
+
+h1, h2
+  text-align: center
+
+h1
+  font-size: 30px
+  font-weight: 500
+  line-height: 36px
+  outline: 1px solid red
+
+h2
+  font-size: 24px
+  font-weight: 300
+  line-height: 30px
+
+p
+  outline: 1px solid red
