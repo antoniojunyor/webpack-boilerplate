@@ -20,7 +20,7 @@ const extract_sass = new ExtractTextPlugin({
 module.exports = {
   entry: './source/app.js',
   output: {
-    path: 'build',
+    path: '/',
     filename: 'app.bundle.js'
   },
   module: {
