@@ -1,0 +1,14 @@
+var express = require('express'),
+    webpackDevMiddleware = require('webpack-dev-middleware'),
+    webpack = require('webpack'),
+    webpackConfig = require('../webpack.config.js'),
+    app = express(),
+    compiler = webpack(webpackConfig);
+
+app.use(webpackDevMiddleware(compiler, {
+  publicPath: '/' // Same as `output.publicPath` in most cases.
+}));
+
+app.listen(3000, function () {
+  console.log('Listening on port 3000!');
+});
