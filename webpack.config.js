@@ -44,7 +44,8 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'build'),
-    compress: true
+    compress: true,
+    port: 9000
   },
   plugins: [
     html_webpack_plugin,
