@@ -4,10 +4,15 @@
   "description": "Basic webpack config to init projects",
   "main": "index.js",
   "scripts": {
-    "webpack-dev": "webpack -d --watch",
-    "webpack-prod": "webpack -p"
+    "start": "webpack-dev-server",
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
   },
-  "keywords": ["webpack", "boilerplate", "project" ],
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "project"
+  ],
   "author": "Antonio Junior",
   "license": "ISC",
   "devDependencies": {
@@ -16,7 +21,9 @@
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.2",
+    "serve": "^4.0.1",
     "style-loader": "^0.13.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
