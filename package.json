@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start-node": "node ./bin/www",
-    "start": "webpack-dev-server --open",
-    "dev": "webpack -d --watch",
-    "prod": "webpack -p"
+    "dev": "webpack-dev-server --open",
+    "watch": "webpack -d --watch",
+    "prod": "npm run clean && NODE_ENV=production webpack -p",
+    "clean": "rimraf ./build/*"
   },
   "keywords": [
     "webpack",
