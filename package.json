@@ -32,6 +32,8 @@
     "node-sass": "^4.5.0",
     "pug": "^2.0.0-beta11",
     "pug-html-loader": "^1.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "sass-loader": "^6.0.2",
     "serve": "^4.0.1",
     "style-loader": "^0.13.2",
