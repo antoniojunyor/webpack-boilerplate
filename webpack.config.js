@@ -1,5 +1,5 @@
 'use strict';
-var ExtractTextPlugin = require("extract-text-webpack-plugin"),
+var ExtractTextPlugin = require('extract-text-webpack-plugin'),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     path = require('path');
 
