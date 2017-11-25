@@ -8,5 +8,5 @@
 # Node debug
 npm-debug.log
 
-macOS file system
+# macOS file system
 .DS_store
