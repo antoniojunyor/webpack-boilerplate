@@ -1,4 +1,4 @@
-var css = require('./app.sass');
+import '../stylesheets/app.sass';
 var message = 'webpack starter boilerplate is loading';
 
 console.log(message);
